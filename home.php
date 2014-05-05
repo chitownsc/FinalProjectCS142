@@ -5,9 +5,9 @@
 
 <body id="home">
 
-<!-- <? include ("header.php"); ?> -->
+<!-- <?// include ("header.php"); ?> -->
 
-<!-- <? include ("menu.php"); ?>  -->
+<!-- <? //include ("menu.php"); ?>  -->
 
 <h1> Lauren Fiasconaro </h1>
 <h2> Photography </h2>
@@ -22,6 +22,6 @@
 </ol>
 </div>
 
-<!-- <? include ("footer.php"); ?> -->
+<!-- <?// include ("footer.php"); ?> -->
 </body>
 </html>
