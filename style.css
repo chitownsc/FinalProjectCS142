@@ -1,0 +1,55 @@
+body{
+
+    box-shadow: 20px 20px 50px black;
+    /*padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 2em; */
+    width:100%;
+    background-color: white;
+   /* margin-left:auto; */
+    margin:auto;
+    margin-bottom: 100px; 
+    border
+
+    
+}
+
+
+html{
+
+    background-color: red;
+
+}
+
+
+#home ol{
+
+    list-style: none;
+    margin:auto;
+    text-align: center;
+
+
+}
+
+#home li{
+
+    float:left;
+    margin: 5em;
+}
+
+
+#home a{
+    display:inline-block;
+}
+
+
+#home h1,h2{
+
+    text-align: center;
+}
+
+.buttonLinks{
+    margin: auto;
+
+}
