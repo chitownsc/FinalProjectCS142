@@ -1,15 +1,7 @@
-<html>
-	 <head>
-		<title></title>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
-		<meta name="description" content="" >
-		<meta name="author" content="" >
-		<link href='style.css' rel='stylesheet' type='text/css' media='screen' title='Default Style'/> 
-		<script type="text/javascript" src="slide.js"></script>
-	</head>
+<? include ("top.php"); ?>
 	<body>
 		<div id="mainWrapper" class="main">
-			<img id="mainImg" class="main" onclick="displayNextImage()"  onload="autoPlay()" src="images/thesis/thesis0.jpg">
+			<img id="thesisImg" class="main" onclick="displayNextImage('thesis', 9)"  onload="autoPlay('thesis', 9)" src="images/thesis/regular/photo0.png">
 			
 		</div>
 	</body>

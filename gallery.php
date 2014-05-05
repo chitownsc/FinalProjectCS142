@@ -1,18 +1,12 @@
-<html>
-	 <head>
-		<title></title>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
-		<meta name="description" content="" >
-		<meta name="author" content="" >
-		<!--<link href='style.css' rel='stylesheet' type='text/css' media='screen' title='Default Style'/> -->
-		<script type="text/javascript" src="slide.js"></script>
+<? include ("top.php"); ?>
+
 	</head>
 	<body>
 		<div id="mainWrapper" class="main">
-			<img id="galImg1" class="main"   src="images/thesis/small/thesis0.png">
-			<img id="galImg2" class="main"   src="images/thesis/small/thesis1.png">
-			<img id="galImg3" class="main"   src="images/thesis/small/thesis2.png">
-			<img id="galImg4" class="main"   src="images/thesis/small/thesis3.png">
+			<img id="thesisImg" class="main" onload="autoPlayAll()" src="images/thesis/small/photo0.png">
+			<img id="courseWorkImg" class="main" src="images/courseWork/small/photo0.png">
+			<img id="travelImg" class="main" src="images/travel/small/photo0.png">
+			<img id="commisionImg" class="main" src="images/commision/small/photo0.png">
 			
 		</div>
 	</body>

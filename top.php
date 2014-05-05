@@ -8,17 +8,14 @@
 <meta charset="utf-8">
 <meta name="author" content="Jayson Conyette-James, Sarah Clarke">
 <meta name="description" content="From Photography to feeling...">
-
-
+<script type="text/javascript" src="slide.js"></script>
+<link rel="shortcut icon" href="http://faviconist.com/icons/55d2e0c8e271ef2565e9637885b5df59/favicon.ico" />
 
 <!--[if lt IE 9]>
 	<script src="//html5shim.googlecode.com/sin/trunk/html5.js"></script>
 <![endif]-->
 	
-<link rel="stylesheet"
-href="style.css"
-type="text/css"
-media="screen">
+<link rel="stylesheet" href="style.css" type="text/css" media="screen">
 
 
 	
