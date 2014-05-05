@@ -1,14 +1,25 @@
 html{
-    background-attachment:fixed;
-    background-color: #dedcd7;
-    background-image:url("images/back.png");
-    background-position:bottom; 
+   
+    background-image:url('http://www.uvm.edu/~jconyett/cs142/assignment7/laurenBG.jpg');
     background-repeat:no-repeat;
-    width:100%;    
+    background-attachment:fixed;
 }
-
 body{
-    margin:0px;
+    
+    background-image:url('http://www.uvm.edu/~jconyett/cs142/assignment7/laurenBG.jpg');
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    margin: auto;
+    width: 90%;
+}
+  
+h1{
+    font-size: 80px;
+
+} 
+h2{
+    font-size: 60px;
+    margin-top:-1em;
 }
 
 div#headerWrapper{
@@ -21,13 +32,14 @@ div#headerWrapper{
     margin-left:auto; */
     margin:auto;
     margin-bottom: 100px; 
-    width:100%;    
+    width:100%; 
+    background-color: rgba(255, 255, 255, 0.3);   
 }
 
 div#navLinks{
     height:50px;
     margin: auto;
-    width:325px;
+   /* width:325px;  */
 }
 
 div#navLinks ol{
@@ -41,11 +53,31 @@ div#navLinks ol{
 div#navLinks li{
     float:left;
     margin: 1em;
+    border: solid .3em black;
+    padding: 5em;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    /*fill in the bubbles? */
+    background-color: black;
+
+
 }
 
 
 div#navLinks a{
     display:inline-block;
+    text-decoration: none;
+    font-size: 18pt;
+    
+    /*link color white */
+    color: white;
+}
+
+
+div#navLinks a:visited{
+    /* link color does not change */
+    color: white;
 }
 
 
@@ -53,3 +85,7 @@ div#mainTitle h1,h2{
     text-align: center;
 }
 
+div#headerWrapper{
+    margin-top: 7em;
+    height: 720px;
+}
