@@ -34,7 +34,7 @@ div#navLinks{
 }
 
 div#navLinks ol{
-    list-style: none;
+    list-style-type: none;
     margin:auto;
     padding:0px;
     text-align: center;
@@ -86,7 +86,7 @@ div#mainTitle h1,h2{
 nav#mainMenu{
     background-color: black;
     margin-top: 1em;
-    padding:5px;
+    padding:5px 0px;
     width: 844px;
 }
 
