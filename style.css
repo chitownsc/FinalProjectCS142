@@ -136,3 +136,21 @@ nav#mainMenu a{
     border-width: 80px;
     border-height: 80px;
 }
+
+/*********************************************          Gallery Page          *********************************************/
+img.cover {
+    z-index:1;
+    position:absolute;
+}
+
+div.wrap {
+    display:inline;
+    height:300px;
+    width:300px;
+
+}
+
+div.wrap img.coverImg {
+   /* display:inline;*/
+   z-index:0;
+}
