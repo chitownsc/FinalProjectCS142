@@ -65,6 +65,9 @@ div#navLinks a{
     color: white;
 }
 
+div#navLinks a#datGal1{
+    margin-left: -.5em;
+}
 
 div#navLinks a:visited{
     /* link color does not change */
@@ -110,4 +113,26 @@ nav#mainMenu a{
     font-size: 23px;
 
 
+}
+/*     END OF TOP NAV!!!!!     */
+
+
+
+
+/*About Page */
+
+#bio p{
+    text-indent: 50px;
+    margin: auto;
+    max-width: 600px;
+    font-size: 18pt;
+
+
+}
+
+#bio img#myFace{
+
+    border-radius: 50%;
+    border-width: 80px;
+    border-height: 80px;
 }
