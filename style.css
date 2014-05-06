@@ -176,6 +176,13 @@ div.wrap img.coverImg {
 div.wrapRow {
     width:500px;
 }
+div.wrapRow img#courseWorkImg, div.wrapRow img#courseWorkCover, div.wrapRow img#commisionImg, div.wrapRow img#commisionCover {
+    float:left;
+}
+div.wrapRow img#thesisImg, div.wrapRow img#thesisCover, div.wrapRow img#travelImg, div.wrapRow img#travelCover {
+    float:right;
+} 
+
 
 
 
