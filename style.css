@@ -14,11 +14,11 @@ body{
     margin-top: -8em;
 }
   
-h1{
+body#home h1{
     font-size: 80px;
 }
 
-h2{
+body#home h2{
     font-size: 60px;
     margin-top:-1em;
 }
