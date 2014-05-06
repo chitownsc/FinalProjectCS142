@@ -7,7 +7,7 @@
 		<div id="mainTitle">
 			<h1> Lauren Fiasconaro </h1>
 			<h2> Photography </h2>
-		</div><!--close header wrapper-->
+		</div><!--close title wrapper-->
 		<div id="navLinks">
 			<ol>
 				<li><a href="bio.php">About Me</a></li>

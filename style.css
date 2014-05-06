@@ -23,6 +23,16 @@ body#home h2{
     margin-top:-1em;
 }
 
+h1 {
+    font-size:40px;
+    margin:0px;
+}
+h2 {
+    font-size:25px;
+    margin:0px;
+}
+
+
 div#headerWrapper{
     background-color: rgba(255, 255, 255, 0.5);  
     box-shadow: 20px 20px 50px black;
@@ -55,7 +65,6 @@ div#navLinks li{
     height: 80px;
     /*fill in the bubbles? */
     background-color: black;
-
 
 }
 
@@ -143,20 +152,26 @@ nav#mainMenu a{
 
 /*********************************************          Gallery Page          *********************************************/
 img.cover {
-    z-index:1;
+    height:230px;
     position:absolute;
+    width:230px;
+    z-index:1;
+
 }
 
 div.wrap {
     display:inline;
-    height:300px;
-    width:300px;
+    height:230px;
+    width:230px;
 
 }
 
 div.wrap img.coverImg {
    /* display:inline;*/
+   height:230px;
+   width:230px;
    z-index:0;
+
 }
 
 
