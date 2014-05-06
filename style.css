@@ -1,6 +1,6 @@
 html{
    
-    background-image:url('http://www.uvm.edu/~jconyett/cs142/assignment7/laurenBG.jpg');
+    background-image:url('/images/laurenBG.jpg');
     background-repeat:no-repeat;
     background-attachment:fixed;
     -webkit-background-size: cover;
@@ -20,6 +20,10 @@ body#home h1{
 
 body#home h2{
     font-size: 60px;
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 6d634f52aeb7cd54a2ef053bff13e80cfaf07433
 }
 
 h1 {
@@ -145,10 +149,12 @@ nav#mainMenu a{
 #bio img#myFace{
 
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    display: block;
+    
 }
-
 /*********************************************          Gallery Page          *********************************************/
 img.cover {
     height:220px;
