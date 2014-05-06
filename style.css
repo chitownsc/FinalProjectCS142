@@ -5,35 +5,34 @@ html{
     background-attachment:fixed;
 }
 body{
-    
-    background-image:url('http://www.uvm.edu/~jconyett/cs142/assignment7/laurenBG.jpg');
-    background-repeat:no-repeat;
-    background-attachment:fixed;
     margin: auto;
     width: 90%;
+    margin-top: -8em;
 }
   
 h1{
     font-size: 80px;
+}
 
-} 
 h2{
     font-size: 60px;
     margin-top:-1em;
 }
 
 div#headerWrapper{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.5);  
+    
     box-shadow: 20px 20px 50px black;
+    height: 720px;
     /*padding-left: 2em;
     padding-right: 2em;
     padding-top: 1em;
     padding-bottom: 2em;     
     margin-left:auto; */
-    margin:auto;
-    margin-bottom: 100px; 
-    width:100%; 
-    background-color: rgba(255, 255, 255, 0.3);   
+
+    margin:9em auto 100px;
+    width:844px; 
+     
 }
 
 div#navLinks{
@@ -85,7 +84,55 @@ div#mainTitle h1,h2{
     text-align: center;
 }
 
-div#headerWrapper{
-    margin-top: 7em;
-    height: 720px;
+
+
+
+/* FOR THE MENUE2 */
+nav#mainMenu{
+    background-color: black;
+    margin-top: 1em;
+    padding:5px;
+    width: 844px;
 }
+
+nav#mainMenu ol{
+    background-color: #000;
+    list-style-type: none;
+    padding: 0px;
+    width: 700px;
+    color: white;
+    font-style: italic;
+    margin: auto;
+}
+
+nav#mainMenu li{
+    display: inline;
+    padding: 5%;
+    vertical-align: middle;
+}
+
+nav#mainMenu a{
+    text-decoration:none;
+    color: white;
+    background-color: black;
+    font-size: 23px;
+
+
+}
+
+/*nav#mainMenu li#datHomeLink{
+    margin-left:-2.5em;
+}
+
+nav#mainMenu li#datAboutMe{
+    float:right;
+
+}
+
+nav#mainMenu li#datContactMe{
+
+    float:right;
+    padding-right: -1em;
+}*/
+
+
