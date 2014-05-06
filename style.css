@@ -21,18 +21,10 @@ h2{
 
 div#headerWrapper{
     background-color: rgba(255, 255, 255, 0.5);  
-    
     box-shadow: 20px 20px 50px black;
     height: 720px;
-    /*padding-left: 2em;
-    padding-right: 2em;
-    padding-top: 1em;
-    padding-bottom: 2em;     
-    margin-left:auto; */
-
     margin:9em auto 100px;
     width:844px; 
-     
 }
 
 div#navLinks{
@@ -119,20 +111,3 @@ nav#mainMenu a{
 
 
 }
-
-/*nav#mainMenu li#datHomeLink{
-    margin-left:-2.5em;
-}
-
-nav#mainMenu li#datAboutMe{
-    float:right;
-
-}
-
-nav#mainMenu li#datContactMe{
-
-    float:right;
-    padding-right: -1em;
-}*/
-
-
