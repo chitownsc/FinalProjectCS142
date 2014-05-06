@@ -1,12 +1,12 @@
 html{
    
-    background-image:url('/images/laurenBG.jpg');
+    background-image:url('images/laurenBG.jpg');
     background-repeat:no-repeat;
     background-attachment:fixed;
-      -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 body{
     margin: auto;
@@ -20,7 +20,10 @@ body#home h1{
 
 body#home h2{
     font-size: 60px;
+<<<<<<< HEAD
+=======
     
+>>>>>>> 6d634f52aeb7cd54a2ef053bff13e80cfaf07433
 }
 
 h1 {
@@ -177,13 +180,14 @@ div.wrap img.coverImg {
 
 div.wrapRow {
     height:220px;
+    margin:20px auto;
     width:500px;
 }
-div.wrapRow img#courseWorkImg, div.wrapRow img#courseWorkCover, div.wrapRow img#commisionImg, div.wrapRow img#commisionCover {
-    float:left;
+div.wrapRow div:nth-child(1){
+    margin-right:10px;
 }
-div.wrapRow img#thesisImg, div.wrapRow img#thesisCover, div.wrapRow img#travelImg, div.wrapRow img#travelCover {
-    float:right;
+div.wrapRow div:nth-child(2) {
+    margin-left:10px;
 } 
 
 
