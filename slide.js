@@ -64,8 +64,8 @@ function displayAllNextImages()
 		countAll[3]++;
 	}
 
-	document.getElementById("thesisImg").src=("images/thesis/small/photo" + countAll[0] + ".png");
-	document.getElementById("courseWorkImg").src=("images/courseWork/small/photo" + countAll[1] + ".png");
-	document.getElementById("travelImg").src=("images/travel/small/photo" + countAll[2] + ".png");
-	document.getElementById("commisionImg").src=("images/commision/small/photo" + countAll[3] + ".png");
+	document.getElementById("thesisImgCover").src=("images/thesis/small/photo" + countAll[0] + ".png");
+	document.getElementById("courseWorkImgCover").src=("images/courseWork/small/photo" + countAll[1] + ".png");
+	document.getElementById("travelImgCover").src=("images/travel/small/photo" + countAll[2] + ".png");
+	document.getElementById("commisionImgCover").src=("images/commision/small/photo" + countAll[3] + ".png");
 }
