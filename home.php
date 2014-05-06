@@ -11,7 +11,7 @@
 		<div id="navLinks">
 			<ol>
 				<li><a href="bio.php">About Me</a></li>
-				<li><a href="terra.php">Terra Mortalis</a></li>
+				<li><a href="thesis.php">Terra Mortalis</a></li>
 				<li><a id= "datGal1" href="gallery.php">Collections</a></li>
 			</ol>
 		</div><!--close navLinks wrapper-->
