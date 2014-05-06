@@ -26,11 +26,18 @@ function displayNextImage(gallery, num)
 	console.log(idName);
 	document.getElementById(idName).src=(source);
 }
-				
+		
+function setPhoto(gallery, numChoice){
+	clearTimeout(autoSlide);
+	this.count = numChoice;
+	var source = "images/" + gallery + "/regular/photo" + count + ".png";
+	var idName = gallery + "Img";
+	document.getElementById(idName).src=(source);
+}	
 				
 function autoPlayAll()
 {
-	autoSlide = setTimeout("displayAllNextImages()",500);
+	autoSlide = setTimeout("displayAllNextImages()",1000);
 }
 function displayAllNextImages()
 {
@@ -69,3 +76,5 @@ function displayAllNextImages()
 	document.getElementById("travelImgCover").src=("images/travel/small/photo" + countAll[2] + ".png");
 	document.getElementById("commisionImgCover").src=("images/commision/small/photo" + countAll[3] + ".png");
 }
+
+
