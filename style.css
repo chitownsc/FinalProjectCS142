@@ -146,8 +146,8 @@ nav#mainMenu a{
 #bio img#myFace{
 
     border-radius: 50%;
-    border-width: 80px;
-    border-height: 80px;
+    width: 80px;
+    height: 80px;
 }
 
 /*********************************************          Gallery Page          *********************************************/
@@ -171,9 +171,11 @@ div.wrap img.coverImg {
    height:230px;
    width:230px;
    z-index:0;
-
 }
 
+div.wrapRow {
+    width:500px;
+}
 
 
 
