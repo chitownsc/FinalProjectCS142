@@ -114,7 +114,7 @@ nav#mainMenu ol{
 
 nav#mainMenu li{
     display: inline;
-    padding: 5%;
+    padding: 2.5%;
     vertical-align: middle;
 }
 
@@ -125,6 +125,16 @@ nav#mainMenu a{
     font-size: 23px;
 
 
+}
+
+p.menuVal {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    display:inline;
 }
 /*     END OF TOP NAV!!!!!     */
 
